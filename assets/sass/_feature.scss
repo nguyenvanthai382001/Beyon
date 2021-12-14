@@ -1,0 +1,120 @@
+.feature {
+    margin-bottom: var(--section-spacing);
+    &-main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0 100px;
+    }
+    &-img {
+        margin-left: -76px;
+        width: 100%;
+        max-width: 600px;
+
+    }
+    &-content {
+        flex: 1;
+    }
+    &-desc {
+        margin-bottom: 40px;
+    }
+}
+.mission {
+    background-color: #F4F8FD;
+    padding: 120px 0;
+}
+.testmonials{
+    &-feedback {
+        margin-bottom: 33px;
+        margin-top: -15px;
+        color: $blue-gray;
+        font-size: 16px;
+        font-weight: 500;
+        ion-icon {
+            color: #c6d4f5;
+            font-size: 21px;
+            margin-left: 5px;
+        }
+        span {
+            font-size: 25px;
+            font-weight: 600;
+            color: $primary-color;
+            margin-right: 5px;
+        }
+    }
+    &-img {
+        margin-left: 0;
+        position: relative;
+    }
+    .box-qq {
+        display: flex;
+        gap: 0px 20px;
+        transform: translate(10%,-5%);
+    }
+    &-avt {
+        width: 50px;
+        margin-bottom: 8px;
+    }
+    &-item {
+        padding: 28px 26px 27px 18px;
+        max-width: 232px;
+        box-shadow: 0px 0px 10px #f8f5f1;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+    }
+    &-heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &-star {
+        font-size: 8px;
+        font-weight: 600;
+        color: $blue-dark;
+        ion-icon {
+            color: #F4A71D;
+        }
+    }
+    &-name {
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 11px;
+        margin-bottom: 2px;
+        color: $blue-dark;
+    }
+    &-work {
+        font-size: 7px;
+        font-weight: 500;
+        line-height: 11px;
+        margin-bottom: 8px;
+    }
+    &-desc {
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 14px;
+        margin-bottom: 26px;
+        color: $blue-gray;
+    }
+    .tetsmonials-dot{
+        align-self: end;
+    }
+    .box1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px 0px;
+    }
+    .box2{
+        transform: translateY(25%);
+    }
+    .testmonials-bg{
+        max-width: 476px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+}

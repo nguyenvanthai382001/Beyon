@@ -1,0 +1,76 @@
+html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: $primary-font;
+    font-size: 16px;
+    line-height: 1;
+    color: #000;
+    overflow-x: hidden;
+  }
+.wrapper {
+    margin: 0 auto;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.btn-primary{
+    outline: 0;
+    background: linear-gradient(103.38deg, #F67102 5.1%, #F4A91E 86.29%);
+    padding: 16px 29px;
+    color: #fff;
+    border-radius: 99px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+// Button Prev, Next
+.slick-prev,
+.slick-next {
+    position: absolute;
+    z-index: 10;
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 50%;
+    color: #fff;
+    background-color:  #C4C4C4;
+    &:hover {
+        background: $primary-color;
+        color: #fff;
+    }
+    @include maxWidth(1024px) {
+        width: 30px;
+        height: 30px;
+    }
+}
+// Text Truncate
+.text-truncate {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+}
+
+
+.heading-primary{
+    font-weight: 600;
+    font-size: 16px;
+    color: $primary-color;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+.title-primary{
+    font-weight: 700;
+    font-size: 40px;
+    color: $blue-dark;
+    line-height: 50px;
+    margin-bottom: 32px;
+}
+.desc-primary{
+    font-size: 16px;
+    color: $blue-gray;
+    font-weight: 500;
+    line-height: 24px;
+}
